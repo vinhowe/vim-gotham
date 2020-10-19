@@ -187,7 +187,7 @@ call s:Col('PmenuThumb', '', 'blue')
 
 " Command line stuff.
 call s:Col('ErrorMsg', 'red', 'base1')
-call s:Col('Error', 'red', 'base1')
+call s:Col('Error', 'red', 'base4')
 call s:Col('ModeMsg', 'blue')
 call s:Col('WarningMsg', 'red')
 
