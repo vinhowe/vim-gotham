@@ -269,7 +269,10 @@ call s:Col('ALEErrorSign', 'red', s:linenr_background)
 call s:Col('NeomakeWarningSign', 'yellow', s:linenr_background)
 call s:Col('NeomakeErrorSign', 'red', s:linenr_background)
 call s:Col('NeomakeWarning', 'yellow')
+call s:Attr('NeomakeWarning', 'undercurl')
 call s:Col('NeomakeError', 'red')
+call s:Col('NeomakeError', 'red')
+call s:Attr('NeomakeError', 'undercurl')
 
 " Cleanup =====================================================================
 
